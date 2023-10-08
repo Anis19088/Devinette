@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Devinette {
     boolean trouver = false;
-    int test; // Variable d'instance
+    int test;
 
     public void devinette() {
         Scanner scanner = new Scanner(System.in);
@@ -15,7 +15,7 @@ public class Devinette {
 
 
             System.out.println("Saisissez un nombre :");
-            test = scanner.nextInt(); // Utilisez la variable d'instance
+            test = scanner.nextInt(); 
 
             if (test > rand) {
                 System.out.println("C'est moins");
